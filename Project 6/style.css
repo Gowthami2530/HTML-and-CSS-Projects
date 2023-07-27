@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+}
+
+.container{
+  margin:3% 7% 3% 7%;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar-container div  img{
+    object-fit: contain;
+    width:100px;
+    height:50px;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:55px;
+
+}
+.list-item{
+    list-style: none;
+    font-size:18px;
+    font-weight:500;
+    
+}
+.list-item:first-child{
+    text-decoration: underline;
+    font-size:20px;
+    font: bold;
+    font-weight: 800;
+}
+.button-group{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon svg{
+    width:50px;
+    height:20px; 
+
+}
+.nav-button{
+    font-family:Poppins;
+    font-size:18px;
+    text-align: center;
+    padding:2px 30px 2px 30px;
+    border: 2px solid black;
+    background-color:#ffff;
+    border-radius:10px;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    margin:10px;
+}
+.hero-container .square img{
+   position:relative;
+   margin-top:80%;
+   margin-left:55%;
+   width: 100%;
+   height: 150%;
+
+}
+.hero-container .star:nth-child(2) img{
+    position:absolute;
+    top:70px;
+    right:2%;
+    width:50px;
+    height: 50px;
+}
+ .hero-container .star:nth-child(3) img{  
+    position:absolute;
+    bottom:120px;
+    left:450px;
+    width:50px;
+    height: 50px;
+} 
+
+.hero-container .globe img{
+    position: absolute;
+    top: 45px;
+    right:40%;
+    width:50px;
+    height: 50px;
+
+}
+.hero-container div  img[src="/assets/Image.png"]{
+    position: absolute;
+    margin-top:8%;
+    top:5px;
+    left:30px;
+    width:325px;
+    height:400px;
+}
+.hero-container-right {
+    margin-top:-10%;
+    text-align: center;
+}
+.hero-container-right h1{
+    font-size:59px;
+    margin-top:30%;
+    margin-left:15%;
+}
+.hero-description {
+    font-family:Poppins;
+    margin-top:48px;
+    margin-left:25%;
+    margin-right:20px;
+    color:#808080;
+
+}
+.button-email{
+    margin-top:8%;
+    padding:4px 15px 4px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.button-join{
+    padding:3px;
+    margin-left:7px;
+    background-color: black;
+    color: #ffff;
+    border-radius:5px;
+    cursor:pointer;
+    border:none;
+}
+.contact-heading{
+    margin-top:7%;
+    font-family:Poppins;
+    color:#808080;
+}
+
+.icons img{
+    width:30px;
+    margin-top:15px;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+    
