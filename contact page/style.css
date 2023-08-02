@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"poppins",sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#eecbed;
+    border-radius:10px;
+    height:100vh;
+    border:3px solid rgb(237, 79, 22);
+}
+form{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    background:#fff;
+    width:40%;
+    height:95vh;
+    border-radius:20px;
+}
+
+form h3{
+    text-align: center;
+    color:rgb(237, 79, 22);
+    margin-top:20px;
+}
+form input,textarea{
+    margin:15px ;
+    width:95%;
+    padding:10px 30px 10px 30px;
+    border-radius:15px;
+    border:0;
+    outline: none;
+    background-color:#f5f5f5;;
+    color: black;
+    resize: none;
+}
+button{
+    margin:15px;
+    padding:5px 40% 5px 40%;
+    border-radius:20px;
+    border:2px solid rgb(237, 79, 22);
+    color: rgb(237, 79, 22);
+    font-size:20px;
+    background-color: #fff;
+}
+button:hover{
+    background-color:rgb(237, 79, 22);;
+    color:  #fff;
+
+}
+@media screen and (max-width:620px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:#eecbed;
+        border-radius:7px;
+        height:100vh;
+    }
+    form{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        background:#fff;
+        width:70%;
+        height:95vh;
+        border-radius:20px;
+    }
+    
+    form h3{
+        text-align: center;
+        color:rgb(237, 79, 22);
+        padding-top:20px;
+    }
+    form input,textarea{
+        margin:15px ;
+        width:95%;
+        padding:5px 10px 5px 20px;
+        border-radius:15px;
+        border:0;
+        outline: none;
+        background-color:#f5f5f5;;
+        color: black;
+        resize: none;
+    }
+    button{
+        margin:15px;
+        padding:10px 50px 10px 50px;
+        border-radius:20px;
+        border:2px solid rgb(237, 79, 22);
+        color: rgb(237, 79, 22);
+        font-size:20px;
+        background-color: #fff;
+    }
+    button:hover{
+        background-color:rgb(237, 79, 22);;
+        color:  #fff;
+    }
+
+    
+}
