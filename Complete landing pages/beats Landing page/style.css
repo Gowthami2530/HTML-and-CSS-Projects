@@ -1,0 +1,634 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Poppines;
+}
+body{
+    background-color: rgb(9, 8, 8);
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+   flex-grow:1;
+   padding:30px 5% 30px 20%;
+}
+.beatslogo{
+    width:30px
+}
+.beatslogo img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+.navlist {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.navlist ul{
+    display: flex;
+    gap:50px;
+}
+.navlist > ul > li {
+    list-style:none;
+    color: aliceblue;
+    font-weight:600;
+    cursor: pointer;
+}
+.shopbutton{
+    background-color:#28282b;
+    color: #fff;
+    font-size:20px;
+    border-radius:15px;
+    border:none;
+    padding:1% 4%;
+}
+.shopbutton:hover{
+    background-color:#fff;
+    color:#28282b ;
+
+}
+
+
+.Right{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    gap:90px;
+}
+.mainImage{
+    width:18%;
+    height:18%;
+}
+.mainImage img{
+    position: relative;
+    top:-150px;
+    left:-50px;
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.onEarImage{
+   width:30%;
+   height:30%;
+}
+.onEarImage img{
+    padding-left:20%;
+    width:100%;
+    height:100%;
+}
+
+.onEarImage h1{
+    padding-top:40px;
+    color: #fff;
+    font-size:70px;
+    font-weight: 700;
+}
+.onEarImage h5{
+    padding-top:40px;
+    color: #fff;
+    font-size:22px;
+    font-weight: 500;
+    
+}
+.onEarImage p{
+    padding-top:10px;
+    width:90%;
+    color: #ffffff8a;
+    font-size:20px;
+    line-height:30px;
+}
+.bagbutton{
+    position: relative;
+    margin-top:40px;
+    width:50%;
+}
+.bagbutton img{
+    position: absolute;
+    left:-35px;
+    top:5px;
+    width:30%;
+    height:30%;
+} 
+.bagbutton button{
+    background-color:#28282b; 
+    color:#ffffff8a;
+    font-size:16px;
+    font-weight:600;
+    border:none;
+    border-radius:5px;
+    padding:12px  90px 12px 60px;
+}
+.bagbutton p{
+    position: relative;
+    right:-150px;
+    bottom:45px;
+    font-weight: 600;
+    color: #fff;
+    font-size:17px;
+}
+.companylogo{
+    display: flex;
+    width:100%;
+    height: 100%;
+    align-items: center;
+    justify-content:center;
+    gap:10%;
+}
+.apple:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.spotify:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.amazon:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.youtube:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.specs{
+  display: flex;
+  flex-direction: column;
+  margin-top:15%;
+  align-items: center;
+  justify-content: center;
+
+}
+.center{
+    width:20%;
+}
+.center img{
+    width:100%;
+    height:100%;
+}
+.center:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+    
+}
+.leftsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:35%;
+    gap:30%;
+    line-height:30px;
+}
+.bluethooth{
+    width:200%;
+    padding:15px 30px;
+}
+.bluethooth img:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+   
+}
+.bluethooth h4{
+    color: #fff;
+}
+.bluethooth h4:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+    
+}
+.bluethooth p{
+    color:#ffffff8a;
+
+}
+.bluethooth p:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+    
+}
+.Battery{
+    width:200%;
+    padding:15px 2px;
+
+}
+.Battery img:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.Battery h4{
+    color: #fff;
+}
+.Battery h4:hover{
+    transform: scale(1.3);
+    transition:0.5s;  
+}
+
+.Battery p{
+    color:#ffffff8a;
+
+}
+.Battery p:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.load{
+    width:200%;
+    padding:15px 20px;
+
+}
+.load img:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.load h4{
+    color: #fff;
+
+}
+
+.load h4:hover{
+    transform: scale(1.3);
+    transition:0.5s;  
+}
+.load p{
+    color:#ffffff8a;
+    
+}
+.load p:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.Microphone{
+    width:130%;
+    padding:15px 50px;
+
+}
+.Microphone img:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.Microphone h4{
+    color: #fff;
+
+}
+.Microphone h4:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.Microphone p{
+    color:#ffffff8a;
+}
+.Microphone p:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.rightspecs img:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+}
+.Case{
+    display: flex;
+    flex-direction: column;
+    margin-top:15%;
+    align-items: center;
+    justify-content: center;
+}
+.Caselogo{
+    width:20%;
+}
+.Caselogo img{
+    width:100%;
+    height:100%;
+} 
+.Caselogo img:hover{
+    transform: scale(1.3);
+    transition:0.5s;
+    
+}
+
+.Casemain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+    width:50%;
+    gap:10%;
+}
+.Caseleft img:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+
+}
+.caseright{
+    width:60%;
+    
+}
+.caseright p{
+    color:#ffffff8a;
+    font-size:20px;
+    width:75%;
+    line-height:25px;
+   
+}
+.caseright button {
+    display: flex;
+    gap:15px;
+    align-items: center;
+    margin-top:50px;
+    background-color:#28282b;
+    border: none;
+    border-radius:7px;
+    padding:5px 8px;
+
+}
+.caseright button p{
+    width:80%;
+    color: #fff;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#28282b;
+    border-radius:20px;
+    margin:5% 20%;
+    
+}
+.boxleft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:4% 3%;
+    gap:20px;
+}
+.boxleftmatter{
+    width:50%;
+}
+.boxleftmatter h2{
+    color: #fff;
+    width:70%;
+}
+.boxleftmatter p{
+    margin:15px 0;
+    font-size:18px;
+    color:#ffffff8a;
+}
+.boxleftmatter  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    background-color: rgb(9, 8, 8);
+    border:none;
+    border-radius:5px;
+    padding:5px 30px;
+
+}
+.boxleftmatter button p{
+    font-size:18px;
+    color: #fff;
+
+}
+.buynow img:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:10%;
+}
+.chooselogo{
+    width:30%;
+}
+.chooselogo img{
+    width:100%;
+    height:100%;
+}
+.chooselogo img:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+   
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:30px;
+    margin-top:9%;
+    width:60%;
+    height:60%;
+    
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #28282b;
+    border-radius:15px;
+    position: relative;
+    width:17vw;
+    height:30vh;
+    margin:12% 0;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+    
+   
+}
+.card1{
+    width:100%;
+    height:100%;
+}
+.card1 img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    position: absolute;
+    bottom:100px;
+   
+   
+}
+.card1 img:hover{
+    transform: scale(1.1);
+    transition:0.5s; 
+}
+.card2{
+    width:100%;
+    height:100%;
+}
+.card2 img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    position: absolute;
+    bottom:100px;
+}
+.card2 img:hover{
+    transform: scale(1.1);
+    transition:0.5s; 
+}
+.card3{
+    width:100%;
+    height:100%;
+}
+.card3 img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    position: absolute;
+    bottom:100px;
+}
+.card3 img:hover{
+    transform: scale(1.1);
+    transition:0.5s; 
+}
+.card4{
+    width:100%;
+    height:100%;
+}
+.card4 img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    position: absolute;
+    bottom:100px;
+}
+.card4 img:hover{
+    transform: scale(1.1);
+    transition:0.5s; 
+}
+.card5{
+    width:100%;
+    height:100%;
+}
+.card5 img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    position: absolute;
+    bottom:100px;
+}
+.card5 img:hover{
+    transform: scale(1.1);
+    transition:0.5s; 
+}
+.cardbottom{
+    display: flex;
+    align-items: center;
+    gap:120px;
+    width:95%;
+    line-height:25px;
+    
+}
+.cardbottom{
+    position: relative;
+    top:-70px;
+    left:7px;
+}
+.cardmatter h4{
+    color:#fff;
+}
+.cardmatter p{
+    color:#ffffff8a;
+}
+.cardshop button{
+    background-color: black;
+    padding:5px;
+    border-radius:5px;
+    border: none;
+}
+.footermain{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:20px 0 50px 250px;
+    width:100%;
+    height:100%;
+    gap:10%;
+
+}
+.footerright{
+    width:70%;
+    height:70%;
+}
+.footermatter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:14%;
+    line-height:30px;
+}
+.products h3{
+    color: #fff;
+}
+.products{
+    color: #ffffff8a;
+    font-size:18px;
+    width:70%;
+}
+.Support h3{
+    color: #fff;
+}
+.Support{
+    font-size:18px;
+    color: #ffffff8a;
+    width:70%;
+}
+.Emailbutton{
+    width:50%;
+    height:50%;
+}
+.Emailbutton input{
+    background-color: #28282b;
+    padding:20px 70px 20px 30px;
+    border-radius:5px;
+    border:none;
+}
+.Emailbutton button{
+    position:relative;
+    top:-45px;
+    left: 140px;
+    display: flex;
+    background-color: black;
+    padding:7px;
+    border-radius:5px;
+    gap:10px;
+    border:none;
+}
+.Emailbutton button p{
+    font-size:18px;
+    color: #fff;
+}
+.socialmedia{
+    display: flex;
+    gap:25px;
+}
+.uparrow {
+    margin-left:20%;
+}
+.facebook:hover{
+    transform: scale(1.3);
+    transition:0.5s; 
+
+}
+.twitter:hover{
+    transform: scale(1.3);
+    transition:0.5s; 
+
+}
+.instagram:hover{
+    transform: scale(1.3);
+    transition:0.5s; 
+
+}
+.linkedin:hover{
+    transform: scale(1.3);
+    transition:0.5s; 
+
+}
+
