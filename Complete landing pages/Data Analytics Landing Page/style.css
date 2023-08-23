@@ -1,0 +1,590 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:popines;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding:20px 70px;
+    justify-content:center;
+    gap:20%;
+    z-index: -1;
+}
+nav> ul{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+nav>ul>li{
+    list-style: none;
+    font-size:20px;
+    cursor: pointer;
+    /* z-index:1; */
+}
+.navbutton{
+    border:2px solid rgb(189, 96, 233);
+    background-color:#fff;
+    color:rgb(189, 96, 233);
+    font-size: 18px;
+    font-weight:700;
+    padding:10px 25px;
+    border-radius:20px;
+    cursor: pointer;
+    /* z-index: 1; */
+}
+.navbutton:hover{
+    background-color:rgb(189, 96, 233);
+    color:#fff;
+
+}
+.backcolor{
+    background-image:linear-gradient( #fff 10%, rgb(196, 219, 231) 90%);
+    margin-top:30px;
+    width:100vw;
+    height:70vh;
+    position:relative;
+    top:10px;
+    transform: skewY(-5deg);
+}
+.leftmatter{
+    display: flex;
+    margin:2% 10%;
+    flex-direction: column;
+    position: absolute;
+    bottom:100px;
+    width:100%;
+   
+    /* left:90px;
+    top:-600px;    */
+}
+.left button{
+    display: flex;
+    background-color: rgb(237, 222, 251);
+    border-radius:20px;
+    color: rgb(171, 86, 250);
+    border:none;
+    padding:10px;
+    font-size:18px;
+    gap:7px;
+    cursor: pointer;
+}
+.line {
+    text-decoration:underline;
+    color: rgb(174, 101, 242);
+}
+.leftcontext{
+    display: flex;
+   
+}
+.matter{
+    width:40%;
+}
+.matter h1{
+    padding-top:20px;
+    font-size:55px;
+}
+.matter p{
+    color: rgb(82, 83, 84);
+    padding:20px 0 ;
+    font-size:20px;
+}
+.button{
+    padding-top:20px;
+}
+.free{
+    background-color: rgb(89, 24, 150);
+    color: #fff;
+    padding:10px 15px;
+    border-radius:20px;
+    border:none;
+    font-size:17px;
+}
+.free:hover{
+    color:rgb(131, 7, 248);
+    background-color: #fff;
+}
+.Learn{
+    padding:10px 20px;
+    border-radius:20px;
+    border:none;
+    font-size:17px;
+    margin-left:20px;
+    color:rgb(89, 24, 150);
+}
+.Learn:hover{
+    background-color: rgb(144, 105, 181);
+    color: #fff;
+
+}
+.Right img{
+    width:100%;
+    animation: zoom-in-out 5s infinite linear;
+    cursor: pointer;
+}
+@keyframes zoom-in-out{
+    to{
+        transform: scale(0.7);
+    }
+    from{
+        transform: scale(1);
+    }
+} 
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin:10%;
+    width:80vw;
+    height:70vh;
+    
+}
+.eye button{
+    display: flex;
+    gap:8px;
+    background-color: rgb(239, 232, 255);
+    padding:7px 10px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+.eye button p{
+    color: rgb(131, 16, 239);
+    font-size:18px;
+    
+}
+.firstmatter h1{
+    padding:20px 0 10px 0 ;
+    font-size:40px;
+    text-align: center;
+}
+.firstmatter p{
+   text-align: center;
+   font-size:18px;
+   padding:0 12%;
+   width:60vw;
+   line-height:25px;
+   color: rgb(119, 121, 121);
+}
+.secondmatter{
+    display: flex;
+    margin-top:70px;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    gap:40px;
+}
+.business{
+    width:100%;
+    height:100%;
+}
+.businessmatter{
+    text-align: center;
+}
+.businessmatter img:hover{
+    transform: scale(0.5);
+    transition: 2s;
+}
+.businessmatter h3{
+    font-size:25px;
+    padding-top:20px;
+
+}
+.businessmatter p{
+    padding-top:20px;
+    color: rgb(155, 157, 159);
+    font-size:18px;
+}
+.Powerful{
+    width:100%;
+    height:100%;
+}
+.Powerfulmatter{
+    text-align: center;
+}
+.Powerfulmatter img:hover{
+    transform: scale(0.5);
+    transition: 2s;
+}
+.Powerfulmatter h3{
+    font-size:25px;
+    padding-top:20px;
+
+}
+.Powerfulmatter p{
+    padding-top:20px;
+    color: rgb(155, 157, 159);
+    font-size:18px;
+}
+.data{
+    width:100%;
+    height:100%;
+}
+.datamatter{
+    text-align: center;
+}
+.datamatter img:hover{
+    transform: scale(0.5);
+    transition: 2s;
+}
+.datamatter h3{
+    font-size:25px;
+    padding-top:20px;
+    
+
+}
+.datamatter p{
+    padding-top:20px;
+    color:rgb(155, 157, 159);
+    font-size:18px;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10%;
+    width:80vw;
+    height:70vh;
+    gap:70px;
+}
+.leftcircle img{
+    width:100%;
+    animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+    to{
+      transform: rotate(0deg);
+    }
+    from {
+      transform: rotate(360deg);
+    }
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.teams button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 232, 255);
+    gap:15px;
+    border:none;
+    border-radius:20px;
+    padding:10px;
+}
+.teams button:hover{
+    background-color:rgb(176, 101, 246); ;
+}
+.teams p{
+    color: rgb(131, 16, 239); 
+    font-size:17px;
+}
+.teams p:hover{
+    color: #fff;
+
+}
+.rightmatter h1{
+    padding-top:20px;
+    font-size:40px;
+}
+.rightmatter p{
+    padding-top:20px ;
+    font-size:19px;
+    line-height:30px;
+    color: rgb(171, 172, 173);
+}
+.Engineering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10%;
+    width:90vw;
+    height:70vh;
+}
+.Engineerteam button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    border:none;
+    border-radius:20px;
+    background-color:rgb(239, 232, 255);
+    padding:10px;
+
+}
+.Engineerteam button p{
+    color: rgb(131, 16, 239); 
+    font-size:17px;
+    cursor: pointer;   
+}
+.Engineerteam button:hover{
+    background-color: rgb(198, 146, 247);
+
+}
+.Engineerteam button p:hover{
+    color: #fff;
+}
+.Engineeringmatter h1{
+    padding-top:20px;
+    font-size:40px;
+
+}
+.Engineeringmatter p{
+    padding-top:20px ;
+    font-size:19px;
+    line-height:30px;
+    color: rgb(171, 172, 173);
+
+}
+.Engineerimage img:hover{
+    transform: scale(0.7);
+    transition:5s;
+
+}
+.bgcolor{
+    background-image:linear-gradient( #ffe5df 10%, rgb(236, 247, 252) 90%);
+    margin-top:30px;
+    width:100vw;
+    height:80vh;
+    position:relative;
+    top:10px;
+    transform: skewY(-5deg);
+}
+.Sullivan{
+    position: absolute;
+    bottom:-345%;
+    left:470px;
+}
+.sullivanmatter p{
+    text-align: center;
+    font-size:20px;
+    line-height:25px;
+}
+.profileimage{
+    text-align: center;
+    padding-top:50px ;
+}
+.profileimage h4{
+    font-size:20px;
+    padding-top:20px;
+}
+.profileimage h5{
+    font-size:19px;
+    padding-top:10px;
+}
+.linehr{
+    padding-top:40px;
+}
+.row{
+    display: flex;
+    padding-top:50px;
+    gap:5%;
+
+}
+.Google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10%;
+    width:80vw;
+    height:70vh;
+    gap:70px;
+}
+.compaines h1{
+    font-size: 45px;
+
+}
+.compaines h4{
+    padding-top:20px;
+    max-width:500px;
+    position:relative;
+    text-align: center;
+    color: rgb(219, 221, 223);
+}
+.compaines h4:before{
+    content:"";
+    width:170px;
+    height:2px ;
+    display: block;
+    position:absolute;
+    top:30px;
+    background-color:rgb(219, 221, 223);
+
+}
+.compaines h4:after{
+    content:"";
+    width:150px;
+    height:2px ;
+    display: block;
+    position:absolute;
+    left:350px;
+    bottom:7px;
+    background-color: rgb(219, 221, 223);
+
+}
+.twologo{
+    width:70%;
+   display:flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding-top:30px;
+   gap:100px;
+   cursor: pointer;
+}
+.Signbg{
+    background-color: rgb(242, 197, 205);
+    position: relative;
+    right:60px;
+    width:29vw;
+    height:60vh;
+    z-index: -1;
+}
+.Signup{
+    background-color: #ffffffd0;
+    border-radius:5px;
+    position: absolute;
+    left:59%;
+    top:480%;
+    width:26vw;
+    height:60vh;
+}
+form{
+    position:absolute;
+    top:10px;
+    
+}
+form h4,h5{
+    text-align: center;
+    font-size:20px;
+
+}
+form button{
+    padding:10px 50px;
+    background-color:rgb(131, 16, 239) ;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius:5px;
+    margin:5px 70px;
+    border:none;
+    cursor:pointer;
+
+}
+input{
+    padding:10px 12px;
+    margin:5px 70px;
+    border-radius:5px;
+    border:1px solid gainsboro;
+    font-size:18px;
+}
+.Image{
+    text-align: center;
+    padding-top:15px;
+    cursor: pointer;
+}
+hr{
+    width:90%;
+    margin:20px;
+}
+form p{
+    text-align: center;
+    font-size: 18px;
+    color: #b0aeae;
+}
+form p span{
+    color:rgb(131, 16, 239) ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fot{
+    background-color:rgb(206, 225, 235) ;
+    width:100vw;
+    height:80vh;
+}
+
+.fotleft{
+    display: flex;
+    width:100vw;
+    align-items: center;
+    margin:10%;
+    padding-top:10%;
+    line-height:25px;
+    gap:60px;
+}
+.fotleftmatter p{
+    padding-top:20px;
+    font-size:18px;
+    line-height:30px;
+
+}
+.fotimage{
+    display: flex;
+    gap:20px;
+    padding-top:20px;
+    width:100%;
+}
+.fotimage img{
+    width:30px;
+}
+.footertxt{
+    display: flex;
+    width:70%;
+    justify-content: space-between;
+}
+.Product h4{
+    font-size:20px;
+}
+.Product p{
+    font-size:18px;
+    line-height:35px;
+}
+
+.ForDevelopers h4{
+    font-size:20px;
+   
+}
+.ForDevelopers p{
+    font-size:18px;
+    line-height:35px;
+}
+.Company h4{
+    font-size:20px;
+
+}
+
+.Company p{
+    font-size:18px;
+    line-height:35px;
+    
+
+}
+.Support h4{
+    font-size:20px;
+
+}
+.Support p{
+    font-size:18px;
+    line-height:35px;
+
+}
+.Newsletter h4{
+    font-size:20px;
+
+}
+.Email{
+    position: relative;
+    top:10px;
+    right:70px ;
+}
+.Email img{
+    position: absolute;
+    top:20px;
+    right:90px;
+}
