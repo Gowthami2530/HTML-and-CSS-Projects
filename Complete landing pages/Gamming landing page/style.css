@@ -1,0 +1,578 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url('./Assets/Photos/futuristic-bg.png');   
+   background-repeat: no-repeat; 
+   overflow-x: hidden;
+}
+header{
+    padding:30px 5% ;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap:10%;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+}
+nav > ul >li{
+    list-style:none;
+    font-size:20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+nav>ul>li:hover{
+    color:rgb(158, 157, 157);
+}
+.button{
+    padding-left:10%;
+    display: flex;
+    gap:30px;
+}
+.Signin{
+    background-color:transparent;
+    border:none;
+    font-size:20px;
+    color: rgb(226, 229, 232);
+    cursor: pointer;
+}
+.Signup{
+    background-color:rgb(241, 103, 52);
+    border:none;
+    padding:10px 30px;
+    font-size:20px;
+    color: rgb(226, 229, 232);
+    font-weight:700;
+    cursor: pointer;
+
+}
+.Signup:hover{
+    background-color:#e1dfdf;
+    color: rgb(241, 103, 52);
+    border:solid 2px rgb(241, 103, 52) ;
+
+}
+.left{
+    display: flex;
+    align-items: start;
+    padding-top:10%;
+    gap:30%;
+}
+.leftmatter h1{
+    color: aliceblue;
+    font-size:70px;
+    font-weight: 800;
+}
+.leftmatter p{
+    padding-top:20px;
+    color: rgb(191, 192, 192);
+    font-size:25px;
+    line-height:35px;
+}
+.leftbutton{
+    padding-top:40px;
+}
+.start{
+    background-color:rgb(241, 103, 52);
+    border:none;
+    padding:20px 30px;
+    font-size:20px;
+    color: rgb(226, 229, 232);
+    font-weight:700;
+}
+.start:hover{
+    background-color:transparent;
+    border:solid 1px #fff;
+    color: rgb(226, 229, 232);
+
+}
+.Learn{
+    background-color:transparent;
+    border:solid 1px #fff;
+    padding:20px 30px;
+    font-size:20px;
+    color: rgb(226, 229, 232);
+    margin-left:20px;
+
+}
+.Learn:hover{
+    background-color:rgb(241, 103, 52);
+    border:none;
+    color: rgb(226, 229, 232);
+
+}
+.right{
+    margin-top:10%;
+    cursor:pointer;
+}
+.rightmatter{
+    padding-top:100%;
+    position:relative;
+}
+.dash{
+    width:80px;
+    position: absolute;
+    left:-250%;
+    bottom:-20%;
+}
+.rightmatter h4{
+    color: #fff;
+    position:absolute;
+    width:20vw;
+    font-size:25px;
+    word-spacing:3px;
+    line-height:35px;
+    left:-90px;
+}
+.rightarrow{
+    position: absolute;
+    bottom:-140%;
+    left:200px;
+    width:5vw;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-top:10%;
+}
+.movierating h1{
+    text-align: center;
+    font-size:70px;
+}
+.moviecards{
+    margin-top:70px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+}
+.moviecard {
+    width:20vw;
+    height:50vh;
+    position: relative;   
+}
+
+.cardmatter{
+    display: flex;
+    justify-content: space-between;
+}
+.moviecard img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.movie1matter{
+    padding:20px;
+    width:20vw;
+    height:18vh;
+    backdrop-filter:blur(50px);
+    position: absolute;
+    bottom:-95%;
+}
+.movie1matter h5{
+    color: #fff;
+    font-size:20px;
+}
+.movie1matter h5:hover{
+    color: #c9c7c7;
+}
+.movie1matter p{
+    padding-top:15px;
+    color: rgb(146, 146, 146);
+    font-size: 18px;
+}
+.movie1matter p:hover{
+    color: #fff;
+}
+.star{
+    display: flex;
+    padding-top:15px;
+    width:20vw;
+    gap:7px;
+}
+.star img{
+    width:20px
+}
+.Download{
+    background-color:rgb(241, 103, 52);
+    border:none;
+    padding:10px 10px;
+    font-size:18px;
+    color: rgb(226, 229, 232);
+    position: relative;
+    top:-30px;
+    left:10px;
+}
+.Download:hover{
+    background-color:rgb(226, 229, 232);
+    color: rgb(241, 103, 52);
+    border:soild 2px rgb(241, 103, 52);
+}
+.Game{
+    display: flex;
+    align-items:start;
+    justify-content:start;
+    gap:70px;
+    padding:10%;
+}
+.leftimage{
+    width:70vw;
+    height:70vh;
+    animation:zoom-in-out 2s linear infinite alternate;
+}
+@keyframes zoom-in-out{
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.leftimage img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.Rightimagematter {
+    padding-top:30px;
+    width:100vw;
+}
+
+.Rightimagematter h1{
+    line-height:85px;
+    font-size:60px;
+
+}
+.Rightimagematter p{
+    padding-top:20px;
+    color:rgb(148, 148, 148);
+    font-size: 20px;
+    line-height:30px;
+}
+.rightbutton{
+    padding-top:30px;
+    display: flex;
+    gap:40px;
+}
+.Explore{
+    background-color:rgb(241, 103, 52);
+    border:none;
+    padding:15px 30px;
+    font-size:18px;
+    color: #fff;
+    cursor: pointer;
+}
+.Explore:hover{
+    background-color:#fff;
+    border:solid 2px rgb(241, 103, 52) ;
+    color: rgb(241, 103, 52);
+}
+.More{
+    background-color:#fff;
+    border:solid 1px rgb(241, 103, 52);
+    padding:15px 30px;
+    font-size:18px;
+    color: rgb(241, 103, 52);
+    cursor: pointer;
+}
+.More:hover{
+    background-color:rgb(241, 103, 52);
+    border:none;
+    color: #fff;
+   
+}
+.Recommend{
+    padding:3% 7%;
+
+}
+.Week{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.Week h1{
+    font-size:70px;
+}
+.arrows{
+    display: flex;
+    gap:30px;
+}
+.leftarrow{
+    padding:20px 15px;
+    background-color:rgb(242, 166, 139);
+    border:none;
+}
+
+.leftarrow:hover{
+    background-color:rgb(249, 244, 243);
+    border:solid 2px rgb(244, 76, 14);
+}
+.nextarrow{
+    padding:20px 15px;
+    background-color:rgb(244, 76, 14);
+    border:none;
+}
+.nextarrow:hover{
+    background-color:rgb(239, 160, 132);
+
+}
+.Recommendcards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:70px;
+    row-gap:90px;
+    column-gap:20px;
+    width:90vw;
+}
+.Recommendcard1{
+    width:20vw;
+    height:35vh;
+    display: flex;   
+}
+.Recommendcard1:hover{
+    transform: scale(0.7);
+    transition:5s;
+}
+.Recommendcard1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.Recommendmatter h2{
+    font-size:30px;
+    line-height:35px;
+}
+.Recommendmatter h5{
+    color:rgb(241, 103, 52) ;
+    padding-top:15px;
+    font-size:25px;
+}
+.Recommendmatter p{
+    width:20vw;
+    height:10vh;
+    font-size:18px;
+    padding-top:15px;
+    line-height:25px;
+    color: rgb(157, 158, 159);
+
+}
+.Download1{
+    background-color:rgb(241, 103, 52);
+    border:none;
+    margin-top:15px;
+    padding:10px 10px;
+    font-size:18px;
+    color:#fff;
+
+}
+.Download1:hover{
+    background-color:#fff;
+    color:rgb(241, 103, 52);
+    border:solid 2px rgb(241, 103, 52);
+
+
+}
+.Played{
+    background-color: black;
+    margin-top: 5%;
+}
+.playedmatter{
+    padding-top:30px;
+
+}
+.playedmatter h1{
+    text-align: center;
+    color: #fff;
+    font-size:70px;
+
+}
+.playedmatter p{
+    color: rgb(184, 186, 188);
+    font-size:20px;
+    line-height:30px;
+    padding:3% 0 0 40%;
+}
+.Playedimages{
+    position: relative;
+}
+.World{
+    position:absolute;
+    width:65vw;
+    left:30%;
+    top:10%;
+  
+}
+.Rectangle17{
+    width:25vw;
+    height:70vh;
+    position:relative;
+    left:90px;
+    bottom:90px;
+}
+.Rectangle17{
+    cursor: pointer;
+    animation: zoom-in-out 5s linear infinite alternate;
+}
+@keyframes  zoom-in-out{
+    from{
+        transform:scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+  }
+.Rectangle18{
+    width:25vw;
+    height:60vh;
+    position:relative;
+    top:20px;
+    left:10%;
+
+}
+.Rectangle18{
+    cursor: pointer;
+    animation: zoom-in-out 5s linear infinite alternate;
+}
+@keyframes  zoom-in-out{
+    from{
+        transform:scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.Rectangle90{
+    width:25vw;
+    height:40vh;
+    position: absolute;
+    left:65%;
+    top:60%;
+}
+.Rectangle90{
+    cursor: pointer;
+    animation: zoom-in-out 5s linear infinite alternate;
+}
+@keyframes  zoom-in-out{
+    from{
+        transform:scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.Experience{
+    padding-top:15%;
+}
+
+.gamematter{
+    background:linear-gradient(rgba(0.5, 0.5, 0.5, 0.5), rgba(0.5, 0.5, 0.5, 0.5)),url('./Assets/Photos/Rectangle\ 606.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height:60vh;
+    object-fit:contain;
+    margin:0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gamematter h1{
+    color:#fffbfb;
+    font-weight:800;
+    font-size:60px;
+}
+.gamematter p{
+    padding-top:25px;
+    font-size:25px;
+    color:rgb(184, 186, 188) ;
+}
+.start1{
+    margin-top:20px;
+    background-color:rgb(241, 103, 52);
+    border:none;
+    padding:20px 30px;
+    font-size:20px;
+    color: rgb(226, 229, 232);
+    font-weight:700;
+}
+.start1:hover{
+    background-color:#fff;
+    color:rgb(241, 103, 52);
+    border:solid 1px rgb(241, 103, 52);
+}
+footer{
+    background-color: black;
+}
+.foot{
+    padding:6% 10%;
+    display: flex;
+    align-items: start;
+    /* line-height:30px; */
+    gap:10%;
+}
+.foottxt p{
+    color:rgb(193, 193, 193) ;
+    padding-top:20px;
+    font-size:20px;
+    line-height:35px;
+   
+}
+.socialmedia{
+    padding-top:20px;
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+}
+.facebook:hover{
+    transform: scale(0.7);
+    transition:2s;
+}
+.instagram:hover{
+    transform: scale(0.7);
+    transition:2s;
+}
+.twitter:hover{
+    transform: scale(0.7);
+    transition:2s;
+}
+
+.footarea{
+    display: flex;
+    justify-content: space-between; 
+    gap:70px;
+}
+.footarea h3{
+    color: #fff;
+    font-size:20px;
+    cursor: pointer;
+}
+.footarea p{
+    padding-top:20px;
+    line-height:25px;
+    color: rgb(193, 193, 193);
+    font-size:18px;
+    width:10vw;
+    cursor: pointer;
+    
+}
+.line{
+    width:100vw;
+}
+.bgcolor{
+    background-color:rgb(2, 2, 43);
+    width:100vw;
+    height:10vh;
+}
+
+
+
