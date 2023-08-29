@@ -1,0 +1,500 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    
+}
+.navbar{
+   
+    padding:2% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+    
+}
+nav>ul>li{
+    list-style:none;
+    font-size:25px;
+    color:#fff;
+    cursor:pointer;
+}
+nav>ul>li:hover{
+    color:rgb(209, 19, 209);
+
+}
+
+.navbutton{
+    display: flex;
+    gap:35px;
+}
+
+.Eng{
+    display: flex;
+    gap:20px;
+    background:transparent;
+    color: #fff;
+    border:none;
+    font-size:20px;
+    cursor: pointer;
+}
+.Eng:hover{
+    color:rgb(209, 19, 209);
+
+}
+button{
+    background:transparent;
+    display: flex;
+    border:none;
+
+}
+button p{
+    color: #fff; 
+    font-size:20px;
+    z-index:1;
+  
+}
+button p:hover{
+    color:rgb(209, 19, 209);
+
+}
+
+.pink {
+    position: relative;
+    left:20px;
+    top:4px; 
+  
+} 
+.pink img{
+    width:100%;
+
+}
+.Simplify{
+    /* margin:10% 5% 0 5%; */
+    position: relative;
+    padding:10% 5% 0 5% ;
+    display: flex;
+    align-items: start;
+}
+.Transactions h1{
+    width:90vw;
+    font-size:100px;
+    color:#fff;
+}
+.Transactions h1 span{
+    color:rgb(209, 19, 209);
+}
+.Transactions p{
+    padding-top:40px ;
+    color:rgb(161, 161, 161);
+    font-size:35px;
+    line-height:40px;
+} 
+.gp{
+    padding-top:5%;
+}
+.get{
+    position:absolute;
+    /* top:40px; */
+    left:60px;
+    width:80px;  
+}
+.get img{
+    width:100%;
+}
+.start h3{
+    display: flex;
+    position: relative;
+    left:20px;
+    align-items: center;
+    gap:20px;
+    font-size:30px;
+    color: #fff;
+    z-index:1;
+   
+  
+}
+.arrow{
+    width:70px;
+}
+.Happy{
+    width:45vw;
+    margin-top:7%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:30px;
+}
+.Happy h2{
+    font-size:45px;
+    color: #fff;
+}
+.Happy h2:hover{
+    color: #8a8787;
+
+}
+.Happy h2 span{
+    color:rgb(209, 19, 209);
+}
+.Happy h2 span:hover{
+    color:#fff;
+}
+.Happy h3{
+    color: #d5d3d3;
+    font-size:30px;
+}
+.Happy h3:hover{
+    color:rgb(209, 19, 209)
+
+}
+
+/* .Right{
+    display: flex;
+} */
+.Rightlight{
+    /* width:70vw; */
+    position:relative;
+    top:-150px;
+    left:-900px;
+}
+.frontimage{
+    position: absolute;
+    right:-16%;
+    bottom:5%;
+}
+.logorow{
+    padding:2% 0;
+    background-color: rgb(47, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:100vw;
+    height:20vh;
+    gap:10%;
+}
+.logorow1:hover{
+    transform: scale(0.7);
+    transition:2s;
+}
+.Payement{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding:10% 5% 0 5% ;
+}
+.payementmatter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payementmatter h1{
+    font-size:70px;
+    color: #fff;
+}
+.payementmatter h1 span{
+    color:rgb(209, 19, 209) ;
+}
+.payementmatter p{
+    font-size:25px;
+    line-height:35px;
+    color: #d5d3d3;
+}
+.payementcards{
+    display: flex;
+    gap:80px;
+    padding-top:10%;
+    height:80vh;
+}
+.transaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:30vw;
+    height:40vh;
+    background-color:rgb(32, 32, 32) ;
+    border:solid 2px #fff;
+    animation:zoom-in-out 2s linear infinite alternate;
+}
+.transaction:hover{
+    background-color:rgb(77, 74, 74) ;
+
+}
+@keyframes zoom-in-out{
+    from {
+        transform: scale(0.7);
+        
+    }
+    to{
+        transform: scale(1);
+    }
+
+}
+
+.dollormatter{
+    padding-top:5%;
+    color: #fff;
+    font-size:25px;
+}
+.dollormatter:hover{
+    color:rgb(209, 19, 209)  ;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width:30vw;
+    height:40vh;
+    background-color:rgb(65, 63, 63) ;
+    border:solid 5px #fff;
+    position: relative;
+    animation:zoom-in-out 2s linear infinite alternate;
+    top:-40px;
+}
+.card:hover{
+    background-color: #1c1b1b;
+
+}
+@keyframes zoom-in-out{
+    from{
+        transform:scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.cloudmatter{
+    text-align: center;
+    padding-top:5%;
+    color: #fff;
+    font-size:25px;
+}
+.cloudmatter:hover{
+    color:rgb(209, 19, 209)  
+}
+.lockmatter{
+    padding-top:5%;
+    color: #fff;
+    font-size:25px;
+
+}
+.lockmatter:hover{
+    color:rgb(209, 19, 209)  
+}
+.interesting{
+    background-color:rgb(255, 246, 255) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardchoices{
+    padding-top:10%;
+}
+.cardchoices h1{
+    text-align: center;
+    font-size:90px;
+    color: black;
+}
+.cardchoices h1 span{
+    color:rgb(209, 19, 209);   
+}
+.cardchoices p{
+    padding-top:70px;
+    font-size:30px;
+    text-align: center;
+    line-height:50px;
+    color: rgb(100, 99, 99);
+}
+.vcard{
+    position: relative;
+    top:-60px;
+}
+.vcard:hover{ 
+    animation:zoom-in-out 2s linear infinite alternate;
+}
+.Customer{
+    padding-top:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+.Customermatter h1{
+    text-align: center;
+    font-size:75px;
+    color: #fff;
+}
+.Customermatter h1 span{
+    color: rgb(209, 19, 209);
+}
+.Customermatter p{
+    text-align: center;
+    line-height:40px;
+    font-size:25px;
+    color: #d5d3d3;
+    padding-top:50px;
+}
+.Customercards{
+    padding-top:60px;
+    width:70vw;
+    row-gap:50px;
+    column-gap:70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ratingcard{
+    padding:2% 2%;
+    width:30vw;
+    height:35vh;
+    background-color: rgb(83, 81, 81);
+    border:solid 3px #fff;
+}
+.ratingcard:hover{
+    background-color: #222121;
+}
+.cardmatter h5{
+    padding-top:20px;
+    line-height:25px;
+    color: #c4c2c2;
+    font-size:17px;
+}
+.cardmatter h5:hover{
+    color: #fff;
+}
+.cardname{
+    padding-top:30px;
+}
+.cardname h4{
+    font-size:25px;
+    color: #c6c5c5;
+}
+.cardname h4:hover{
+    color: rgb(209, 19, 209);
+}
+.cardname p{
+    padding-top:2%;
+    font-size:18px;
+    color: rgb(177, 174, 174);
+}
+.cardname p:hover{
+    color: rgb(249, 146, 249);
+}
+.ratingcard1{
+    padding:2% 2%;
+    width:30vw;
+    height:38vh;
+    background-color: rgb(27, 26, 26);
+    border:solid 1px #fff;
+
+}
+.ratingcard1:hover{
+    background-color: rgb(83, 81, 81) ;
+}
+.pinkbar{
+    display: flex;
+    width:20vw;
+    margin:5% 0;
+    align-items: start;
+    justify-content:start;
+    gap:20px;
+}
+.bar{
+    width:10vw;
+    height:2vh;
+    border-radius:7px;
+    background-color:rgb(209, 19, 209) ;
+}
+.circle1{
+    border-radius:50px;
+    background-color: rgb(43, 42, 42);
+    width:1vw;
+    height:2vh;
+}
+.Rectangle{
+    background-color: black;
+    width:100vw;
+    height:90vh;
+    position: relative;
+
+}
+.pinkrectangle img:nth-child(1){
+    width:100%;
+    position: absolute;
+
+}
+.pinkrectangle img:nth-child(2){
+   width:100%;
+   position: absolute;
+}
+
+.Diamond img:nth-child(1){
+    position: absolute;
+
+}
+.Diamond img:nth-child(2){
+    position:absolute;
+    bottom:90px;
+    right:0;
+}
+.Rectanglematter{
+    position:absolute;
+    text-align: center;
+    bottom:300px;
+    right:200px;
+
+}
+.Rectanglematter h1{
+    font-size:90px;
+    color: #fff;
+}
+.Rectanglematter h1 span{
+    color: black;
+}
+.rect{
+    position:absolute;
+    bottom:-80px;
+    right:650px;
+    width:5vw;  
+}
+.Rectanglematter h5{
+    position: absolute;
+    right:500px;
+    bottom:-70px;
+    font-size:20px;
+    color: #fff;
+}
+.footmatter{
+    padding:5% 10%;
+    display: flex;
+    align-items:center;
+    gap:20%;
+    background-color: black;
+}
+.foottxt{
+    display: flex;
+    gap:10%;
+    width:40vw;
+}
+.foottxt p{
+    color: #cfcece;
+    font-size:25px;
+    cursor: pointer;
+}
+.foottxt p:hover{
+    color:rgb(209, 19, 209);
+}
+
