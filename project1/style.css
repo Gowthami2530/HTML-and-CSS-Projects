@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color:#FFFFFF;
+	background-color:rgb(245, 240, 234);
 }
 nav{
 	padding: 20px 10%;
@@ -15,6 +15,7 @@ ul{
 li{
 	list-style:none;
 	cursor:pointer;
+	font-size:20px;
 	margin-right:5%;
 	font-weight:500;
 
@@ -23,7 +24,6 @@ main{
    display:flex;
    align-items:center;
    justify-content:center;
-   margin-left:10%;
 }
 .leftmain{
 	width:40%;
@@ -34,19 +34,32 @@ main{
 
 }
 .leftmain p{
+	font-size:20px;
+	color:rgb(94, 90, 90);
 	margin: 5% 0;
 
 }
 .leftmain button{
 	background-color:green;
 	color:white;
+	font-size:20px;
 	border-radius:10px;
 	padding:15px 20px;
-	margin:20 0;
+	margin:20px 0;
 	border:none;
-	font-weight: 500;
+	font-weight:700;
 	cursor:pointer;
 }
 .rightmain{
-	width:60%;
+    display: flex;
+	flex-direction: column;
+	
 }
+.right1{
+	display: flex;
+	gap:18px;	
+}
+.right2{
+	padding-top:18px;
+}
+
